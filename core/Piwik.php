@@ -145,7 +145,7 @@ class Piwik
 	static public $piwikUrlCache = null;
 	
 	/**
-	 * Returns the cached the Piwik URL, eg. http://demo.piwik.org/ or http://example.org/piwik/ 
+	 * Returns the cached Piwik URL, eg. http://demo.piwik.org/ or http://example.org/piwik/
 	 * If not found, then tries to cache it and returns the value.
 	 *
 	 * If the Piwik URL changes (eg. Piwik moved to new server), the value will automatically be refreshed in the cache.
